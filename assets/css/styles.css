@@ -73,6 +73,7 @@ a {
 .header-hero {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     position: relative;
     background: #e6f0ff;
     min-height: 646px;
@@ -125,19 +126,18 @@ a {
     border-radius: 8px;
 }
 
-.hero .info {
-    margin-top: 126px;
+.header-hero .info {
     width: 51%;
 }
 
-.hero .sub-title {
+.header-hero .sub-title {
     color: #687690;
     font-size: 1.8rem;
     font-weight: 500;
     letter-spacing: 0.18px;
 }
 
-.hero .title {
+.header-hero .title {
     margin-top: 8px;
     color: var(--primary-color);
     font-size: 6rem;
@@ -145,7 +145,7 @@ a {
     line-height: 118.75%;
 }
 
-.hero .desc {
+.header-hero .desc {
     margin-top: 30px;
     color: #5a6473;
     font-size: 1.8rem;
